@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+}
+
+body {
+  @apply min-h-screen bg-slate-950 text-slate-100 antialiased;
+  font-family: Inter, system-ui, sans-serif;
+  background-image: radial-gradient(circle at top, rgba(30, 41, 59, 0.7), rgba(2, 6, 23, 1) 45%);
+}
+
+.card {
+  @apply rounded-2xl border border-slate-700/60 bg-slate-900/70 backdrop-blur-md shadow-glow;
+}
