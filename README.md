@@ -68,3 +68,8 @@ After successful deployment, your site will be:
 - Fully static architecture; no server required.
 - Suitable for free GitHub Pages hosting.
 - Mobile-first responsive UI with dark cinematic styling.
+
+
+## Useful GitHub Docs
+- GitHub Pages Quickstart: https://docs.github.com/pages/quickstart
+- GitHub Pages overview: https://docs.github.com/en/pages
