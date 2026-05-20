@@ -1,11 +1,8 @@
 import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 
-// Update this for GitHub Pages project site deployment.
-// Example: '/FrameToMotion/'
-const repoBasePath = process.env.VITE_BASE_PATH || '/';
-
 export default defineConfig({
-  base: repoBasePath,
+  // GitHub Pages project site base path for https://sunnylincc.github.io/FrameToMotion/
+  base: '/FrameToMotion/',
   plugins: [react()],
 });
